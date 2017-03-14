@@ -12,6 +12,10 @@ class EmployeeCreate extends Component {
       this.props.employeeCreate({name, phone, shift: shift || 'Monday'});
   }
 
+  componentWillUnmount(){
+    this.props.employeeCreateInitialState();
+  }
+
   render(){
     return (
       <Card>

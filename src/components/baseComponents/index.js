@@ -4,3 +4,4 @@ export * from './CardSection';
 export * from './Button';
 export * from './EditText';
 export * from './Spinner';
+export * from './Dialog';
